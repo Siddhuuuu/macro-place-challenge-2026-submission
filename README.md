@@ -19,14 +19,22 @@ The implementation combines connectivity-aware guidance with fast local optimiza
 
 The following benchmarks outperformed both the SA and RePlAce baselines while maintaining zero overlaps.
 
-- ibm02: 16.4% better than RePlAce
-- ibm10: 11.6% better than RePlAce
-- ibm12: 6.3% better than RePlAce
+### ibm02 — 16.4% better than RePlAce
 
 <p align="center">
-  <img src="assets/ibm02.png" width="30%">
-  <img src="assets/ibm10.png" width="30%">
-  <img src="assets/ibm12.png" width="30%">
+  <img src="assets/ibm02.png" width="85%">
+</p>
+
+### ibm10 — 11.6% better than RePlAce
+
+<p align="center">
+  <img src="assets/ibm10.png" width="85%">
+</p>
+
+### ibm12 — 6.3% better than RePlAce
+
+<p align="center">
+  <img src="assets/ibm12.png" width="85%">
 </p>
 
 The final implementation beat the SA baseline by 30.2% on average and came within 1.8% of RePlAce while maintaining zero overlaps across all benchmarks.
